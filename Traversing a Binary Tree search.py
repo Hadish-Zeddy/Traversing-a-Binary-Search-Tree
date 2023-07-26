@@ -29,7 +29,7 @@ class BinarySearchTree:
     else:
       return None
     
-  # Define .depth_first_traversal() below:
+  
   def depth_first_traversal(self):
     if (self.left is not None):
       self.left.depth_first_traversal()
